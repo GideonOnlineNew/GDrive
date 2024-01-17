@@ -1,4 +1,4 @@
-import * as THREE from 'https://unpkg.com/three@latest/build/three.module.js';
+import * as THREE from "../node_modules/three/build/three.module.js"
 import { GLTFLoader } from 'https://unpkg.com/three@latest/examples/jsm/loaders/GLTFLoader.js';
 
 // Ваш код для создания сцены, загрузки GLTF и т.д.
