@@ -8,7 +8,7 @@ document.body.appendChild(renderer.domElement);
 
 // Загрузка сцены из glTF файла
 var loader = new THREE.GLTFLoader();
-loader.load('path_to_your_gltf_file.glb', function(gltf) {
+loader.load('Projekt1.gltf', function(gltf) {
     // Добавление сцены из glTF
     scene.add(gltf.scene);
 
