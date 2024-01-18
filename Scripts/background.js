@@ -1,4 +1,4 @@
-import * as THREE from './path/to/three.module.js';
+import * as THREE from '';
 // Импортируйте другие необходимые модули, например GLTFLoader
 import { GLTFLoader } from './path/to/GLTFLoader.js';
 
