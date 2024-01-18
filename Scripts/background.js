@@ -1,5 +1,8 @@
 import * as THREE from './path/to/three.module.js';
+// Импортируйте другие необходимые модули, например GLTFLoader
 import { GLTFLoader } from './path/to/GLTFLoader.js';
+
+// Теперь вы можете использовать THREE и GLTFLoader в вашем файле background.js
 var scene = new THREE.Scene();
 var camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
 camera.position.z = 5;
