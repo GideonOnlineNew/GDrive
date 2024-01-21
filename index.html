@@ -21,14 +21,6 @@
     renderer.setSize(window.innerWidth, window.innerHeight);
     document.body.appendChild(renderer.domElement);
 
-    // Создаем геометрию куба и материал
-    var geometry = new THREE.BoxGeometry();
-    var material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
-
-    // Создаем меш куба
-    var cube = new THREE.Mesh(geometry, material);
-    scene.add(cube);
-
     // Устанавливаем камеру
     camera.position.z = 5;
 
